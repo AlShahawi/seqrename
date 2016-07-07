@@ -12,7 +12,7 @@ cd seqrename
 cp seqrename.sh /usr/bin/seqrename
 ```
 
-## Usage:
+## usage:
      seqrename [Extension [StartFrom [Padding [ PaddingChar ]]]]
      Arguments:
           Extension: The files extension you want to rename to sequential numbers default is null which will select all files and folders.

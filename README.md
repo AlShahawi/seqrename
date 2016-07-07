@@ -1,7 +1,7 @@
-# seqrename
+## seqrename
 Rename a specific type of files to sequential numbers.
 
-# download
+## download
 `git clone https://github.com/AlShahawi/seqrename.git`
 
 ## install globally
@@ -12,8 +12,8 @@ cd seqrename
 cp seqrename.sh /usr/bin/seqrename
 ```
 
-#Usage:
-     seqnumber [Extension [StartFrom [Padding [ PaddingChar ]]]]
+## Usage:
+     seqrename [Extension [StartFrom [Padding [ PaddingChar ]]]]
      Arguments:
           Extension: The files extension you want to rename to sequential numbers default is null which will select all files and folders.
           StartFrom: The number of the first file default is 0.

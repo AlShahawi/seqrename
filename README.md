@@ -11,3 +11,14 @@ After clone the this repo run the following commands:
 cd seqrename
 cp seqrename.sh /usr/bin/seqrename
 ```
+
+#Usage:
+     seqnumber [Extension [StartFrom [Padding [ PaddingChar ]]]]
+     Arguments:
+          Extension: The files extension you want to rename to sequential numbers default is null which will select all files and folders.
+          StartFrom: The number of the first file default is 0.
+          Padding: The padding prefix of the files. default is 4.
+          PaddingChar: The char used with padding. Default is 0.
+     Display help:
+         seqnumber.sh --help
+
